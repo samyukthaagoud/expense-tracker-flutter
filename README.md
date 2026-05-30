@@ -1,17 +1,41 @@
-# expense_tracker
+# Personal Expense Tracker App
 
-A new Flutter project.
+## Objective
+The Personal Expense Tracker App helps users manage their monthly income and expenses efficiently.
 
-## Getting Started
+## Features
+- Add Monthly Income
+- Add Expenses
+- Delete Expenses
+- Category Selection
+- Date Tracking
+- Dynamic Balance Calculation
+- Expense History
 
-This project is a starting point for a Flutter application.
+## Technology Stack
+- Flutter
+- Dart
+- Visual Studio Code
 
-A few resources to get you started if this is your first Flutter project:
+## Project Workflow
+1. User enters monthly income.
+2. User adds expenses with category and date.
+3. Total expenses are calculated automatically.
+4. Available balance is updated automatically.
+5. User can delete expenses.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## How to Run
+1. Install Flutter SDK
+2. Clone the repository
+3. Run:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
+```
+
+## Future Enhancements
+- SQLite Database Integration
+- Expense Analytics and Charts
+- Export Reports
+- Cloud Backup
